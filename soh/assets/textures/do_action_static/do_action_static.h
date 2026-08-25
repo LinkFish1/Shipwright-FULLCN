@@ -439,8 +439,5 @@ static const ALIGN_ASSET(2) char gStopDoActionCHITex[] = dgStopDoActionCHITex;
 #define dgThrowDoActionCHITex "__OTR__textures/do_action_static/gThrowDoActionCHITex"
 static const ALIGN_ASSET(2) char gThrowDoActionCHITex[] = dgThrowDoActionCHITex;
 
-#define dgUnusedNaviDoActionCHITex "__OTR__textures/do_action_static/gUnusedNaviDoActionCHITex"
-static const ALIGN_ASSET(2) char gUnusedNaviDoActionCHITex[] = dgUnusedNaviDoActionCHITex;
-
 // #endregion
 #endif // TEXTURES_DO_ACTION_STATIC_H

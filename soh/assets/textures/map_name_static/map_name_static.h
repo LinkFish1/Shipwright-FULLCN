@@ -430,17 +430,17 @@ static const ALIGN_ASSET(2) char gDesertColossusPositionNameCHITex[] = dgDesertC
 #define dgGanonsCastlePositionNameCHITex "__OTR__textures/map_name_static/gGanonsCastlePositionNameCHITex"
 static const ALIGN_ASSET(2) char gGanonsCastlePositionNameCHITex[] = dgGanonsCastlePositionNameCHITex;
 
-#define dgGerudoValleyPointNameCHITex "__OTR__textures/map_name_static/gGerudoValleyPointNameCHITex"
-static const ALIGN_ASSET(2) char gGerudoValleyPointNameCHITex[] = dgGerudoValleyPointNameCHITex;
-
-#define dgGerudoValleyPositionNameCHITex "__OTR__textures/map_name_static/gGerudoValleyPositionNameCHITex"
-static const ALIGN_ASSET(2) char gGerudoValleyPositionNameCHITex[] = dgGerudoValleyPositionNameCHITex;
-
 #define dgGerudosFortressPointNameCHITex "__OTR__textures/map_name_static/gGerudosFortressPointNameCHITex"
 static const ALIGN_ASSET(2) char gGerudosFortressPointNameCHITex[] = dgGerudosFortressPointNameCHITex;
 
 #define dgGerudosFortressPositionNameCHITex "__OTR__textures/map_name_static/gGerudosFortressPositionNameCHITex"
 static const ALIGN_ASSET(2) char gGerudosFortressPositionNameCHITex[] = dgGerudosFortressPositionNameCHITex;
+
+#define dgGerudoValleyPointNameCHITex "__OTR__textures/map_name_static/gGerudoValleyPointNameCHITex"
+static const ALIGN_ASSET(2) char gGerudoValleyPointNameCHITex[] = dgGerudoValleyPointNameCHITex;
+
+#define dgGerudoValleyPositionNameCHITex "__OTR__textures/map_name_static/gGerudoValleyPositionNameCHITex"
+static const ALIGN_ASSET(2) char gGerudoValleyPositionNameCHITex[] = dgGerudoValleyPositionNameCHITex;
 
 #define dgGoronCityPositionNameCHITex "__OTR__textures/map_name_static/gGoronCityPositionNameCHITex"
 static const ALIGN_ASSET(2) char gGoronCityPositionNameCHITex[] = dgGoronCityPositionNameCHITex;

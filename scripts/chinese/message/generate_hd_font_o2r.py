@@ -32,7 +32,7 @@ except ImportError:
 HERE = Path(__file__).resolve().parent           # scripts/chinese/message/
 REPO = HERE.parent.parent.parent                 # Shipwright-CN/
 TBL_PATH = REPO / "soh" / "src" / "code" / "z_kanfont_chinese_tbl.inc"
-FONT_PATH = HERE / "charmap" / "SourceHanSansSC-Regular.otf"
+FONT_PATH = HERE / "charmap" / "DFGBYY6.ttf"
 OUT_O2R = REPO / "chinese_font_hd.o2r"
 
 # OTR binary format constants

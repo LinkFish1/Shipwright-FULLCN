@@ -350,8 +350,18 @@ void Message_FindMessage(PlayState* play, u16 textId) {
         messageTableEntry = sGerMessageEntryTablePtr;
     else if (gSaveContext.language == LANGUAGE_FRA)
         messageTableEntry = sFraMessageEntryTablePtr;
-    else if (gSaveContext.language == LANGUAGE_CHI)
+    else if (gSaveContext.language == LANGUAGE_CHI) {
+        // 如果中文表为空，尝试从 OTR 加载
+        if (sChiMessageEntryTablePtr == NULL) {
+            OTRMessage_Init(); // 确保 OTR 已初始化
+        }
         messageTableEntry = sChiMessageEntryTablePtr;
+        
+        // 如果仍然为空，使用英文
+        if (messageTableEntry == NULL) {
+            messageTableEntry = sNesMessageEntryTablePtr;
+        }
+    }
 
     // If PAL languages are not present in the OTR file, default to English
     if (messageTableEntry == NULL)

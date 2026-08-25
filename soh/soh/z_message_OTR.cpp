@@ -14,7 +14,7 @@ extern "C" MessageTableEntry* sFraMessageEntryTablePtr;
 extern "C" MessageTableEntry* sJpnMessageEntryTablePtr;
 extern "C" MessageTableEntry* sStaffMessageEntryTablePtr;
 extern "C" MessageTableEntry* sChiMessageEntryTablePtr;
-//extern "C" void OTRMessage_InitChinese();
+//移除extern "C" void OTRMessage_InitChinese();
 // extern "C" MessageTableEntry* _message_0xFFFC_nes;
 
 static void SetMessageEntry(MessageTableEntry& entry, const SOH::MessageEntry& msgEntry) {
@@ -89,8 +89,17 @@ extern "C" void OTRMessage_Init() {
         sJpnMessageEntryTablePtr = OTRMessage_LoadTable("text/jpn_message_data_static/jpn_message_data_static", false);
     }
     if (sChiMessageEntryTablePtr == NULL) {
-        sChiMessageEntryTablePtr = OTRMessage_LoadTable("text/chi_message_data_static/chi_message_data_static", false);
+        // 尝试从 soh.o2r 加载
+        sChiMessageEntryTablePtr = OTRMessage_LoadTable(
+            "text/chi_message_data_static/chi_message_data_static", 
+            false
+        );
     }
+    // 如果 OTR 中没有中文数据，使用英文作为后备
+    if (sChiMessageEntryTablePtr == NULL) {
+        sChiMessageEntryTablePtr = sNesMessageEntryTablePtr;
+    }
+
     // Note: Make sure this loads after PAL nes_message_data_static, so that message 0xFFFC is definitely loaded if it
     // exists
     if (sNesMessageEntryTablePtr == NULL) {

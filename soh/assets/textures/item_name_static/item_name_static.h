@@ -1449,11 +1449,11 @@ static const ALIGN_ASSET(2) char gBiggoronsSwordItemNameJPNTex[] = dgBiggoronsSw
 
 
 // #region SOH [Chinese]
-#define dgBigPoeItemNameCHITex "__OTR__textures/item_name_static/gBigPoeItemNameCHITex"
-static const ALIGN_ASSET(2) char gBigPoeItemNameCHITex[] = dgBigPoeItemNameCHITex;
-
 #define dgBiggoronsSwordItemNameCHITex "__OTR__textures/item_name_static/gBiggoronsSwordItemNameCHITex"
 static const ALIGN_ASSET(2) char gBiggoronsSwordItemNameCHITex[] = dgBiggoronsSwordItemNameCHITex;
+
+#define dgBigPoeItemNameCHITex "__OTR__textures/item_name_static/gBigPoeItemNameCHITex"
+static const ALIGN_ASSET(2) char gBigPoeItemNameCHITex[] = dgBigPoeItemNameCHITex;
 
 #define dgBlueFireItemNameCHITex "__OTR__textures/item_name_static/gBlueFireItemNameCHITex"
 static const ALIGN_ASSET(2) char gBlueFireItemNameCHITex[] = dgBlueFireItemNameCHITex;
@@ -1473,11 +1473,11 @@ static const ALIGN_ASSET(2) char gBombBag30ItemNameCHITex[] = dgBombBag30ItemNam
 #define dgBombBag40ItemNameCHITex "__OTR__textures/item_name_static/gBombBag40ItemNameCHITex"
 static const ALIGN_ASSET(2) char gBombBag40ItemNameCHITex[] = dgBombBag40ItemNameCHITex;
 
-#define dgBombItemNameCHITex "__OTR__textures/item_name_static/gBombItemNameCHITex"
-static const ALIGN_ASSET(2) char gBombItemNameCHITex[] = dgBombItemNameCHITex;
-
 #define dgBombchuItemNameCHITex "__OTR__textures/item_name_static/gBombchuItemNameCHITex"
 static const ALIGN_ASSET(2) char gBombchuItemNameCHITex[] = dgBombchuItemNameCHITex;
+
+#define dgBombItemNameCHITex "__OTR__textures/item_name_static/gBombItemNameCHITex"
+static const ALIGN_ASSET(2) char gBombItemNameCHITex[] = dgBombItemNameCHITex;
 
 #define dgBoomerangItemNameCHITex "__OTR__textures/item_name_static/gBoomerangItemNameCHITex"
 static const ALIGN_ASSET(2) char gBoomerangItemNameCHITex[] = dgBoomerangItemNameCHITex;
@@ -1581,26 +1581,26 @@ static const ALIGN_ASSET(2) char gGerudosCardItemNameCHITex[] = dgGerudosCardIte
 #define dgGiantsKnifeItemNameCHITex "__OTR__textures/item_name_static/gGiantsKnifeItemNameCHITex"
 static const ALIGN_ASSET(2) char gGiantsKnifeItemNameCHITex[] = dgGiantsKnifeItemNameCHITex;
 
-#define dgGoldSkulltulaItemNameCHITex "__OTR__textures/item_name_static/gGoldSkulltulaItemNameCHITex"
-static const ALIGN_ASSET(2) char gGoldSkulltulaItemNameCHITex[] = dgGoldSkulltulaItemNameCHITex;
-
 #define dgGoldenGauntletsItemNameCHITex "__OTR__textures/item_name_static/gGoldenGauntletsItemNameCHITex"
 static const ALIGN_ASSET(2) char gGoldenGauntletsItemNameCHITex[] = dgGoldenGauntletsItemNameCHITex;
 
 #define dgGoldenScaleItemNameCHITex "__OTR__textures/item_name_static/gGoldenScaleItemNameCHITex"
 static const ALIGN_ASSET(2) char gGoldenScaleItemNameCHITex[] = dgGoldenScaleItemNameCHITex;
 
+#define dgGoldSkulltulaItemNameCHITex "__OTR__textures/item_name_static/gGoldSkulltulaItemNameCHITex"
+static const ALIGN_ASSET(2) char gGoldSkulltulaItemNameCHITex[] = dgGoldSkulltulaItemNameCHITex;
+
 #define dgGoronMaskItemNameCHITex "__OTR__textures/item_name_static/gGoronMaskItemNameCHITex"
 static const ALIGN_ASSET(2) char gGoronMaskItemNameCHITex[] = dgGoronMaskItemNameCHITex;
-
-#define dgGoronTunicItemNameCHITex "__OTR__textures/item_name_static/gGoronTunicItemNameCHITex"
-static const ALIGN_ASSET(2) char gGoronTunicItemNameCHITex[] = dgGoronTunicItemNameCHITex;
 
 #define dgGoronsBraceletItemNameCHITex "__OTR__textures/item_name_static/gGoronsBraceletItemNameCHITex"
 static const ALIGN_ASSET(2) char gGoronsBraceletItemNameCHITex[] = dgGoronsBraceletItemNameCHITex;
 
 #define dgGoronsRubyItemNameCHITex "__OTR__textures/item_name_static/gGoronsRubyItemNameCHITex"
 static const ALIGN_ASSET(2) char gGoronsRubyItemNameCHITex[] = dgGoronsRubyItemNameCHITex;
+
+#define dgGoronTunicItemNameCHITex "__OTR__textures/item_name_static/gGoronTunicItemNameCHITex"
+static const ALIGN_ASSET(2) char gGoronTunicItemNameCHITex[] = dgGoronTunicItemNameCHITex;
 
 #define dgGreenPotionItemNameCHITex "__OTR__textures/item_name_static/gGreenPotionItemNameCHITex"
 static const ALIGN_ASSET(2) char gGreenPotionItemNameCHITex[] = dgGreenPotionItemNameCHITex;
@@ -1722,9 +1722,6 @@ static const ALIGN_ASSET(2) char gRequiemOfSpiritItemNameCHITex[] = dgRequiemOfS
 #define dgRutosLetterItemNameCHITex "__OTR__textures/item_name_static/gRutosLetterItemNameCHITex"
 static const ALIGN_ASSET(2) char gRutosLetterItemNameCHITex[] = dgRutosLetterItemNameCHITex;
 
-#define dgSOLDOUTItemNameCHITex "__OTR__textures/item_name_static/gSOLDOUTItemNameCHITex"
-static const ALIGN_ASSET(2) char gSOLDOUTItemNameCHITex[] = dgSOLDOUTItemNameCHITex;
-
 #define dgSariasSongItemNameCHITex "__OTR__textures/item_name_static/gSariasSongItemNameCHITex"
 static const ALIGN_ASSET(2) char gSariasSongItemNameCHITex[] = dgSariasSongItemNameCHITex;
 
@@ -1742,6 +1739,9 @@ static const ALIGN_ASSET(2) char gSilverScaleItemNameCHITex[] = dgSilverScaleIte
 
 #define dgSkullMaskItemNameCHITex "__OTR__textures/item_name_static/gSkullMaskItemNameCHITex"
 static const ALIGN_ASSET(2) char gSkullMaskItemNameCHITex[] = dgSkullMaskItemNameCHITex;
+
+#define dgSOLDOUTItemNameCHITex "__OTR__textures/item_name_static/gSOLDOUTItemNameCHITex"
+static const ALIGN_ASSET(2) char gSOLDOUTItemNameCHITex[] = dgSOLDOUTItemNameCHITex;
 
 #define dgSongOfStormsItemNameCHITex "__OTR__textures/item_name_static/gSongOfStormsItemNameCHITex"
 static const ALIGN_ASSET(2) char gSongOfStormsItemNameCHITex[] = dgSongOfStormsItemNameCHITex;
@@ -1779,11 +1779,11 @@ static const ALIGN_ASSET(2) char gZeldasLullabyItemNameCHITex[] = dgZeldasLullab
 #define dgZoraMaskItemNameCHITex "__OTR__textures/item_name_static/gZoraMaskItemNameCHITex"
 static const ALIGN_ASSET(2) char gZoraMaskItemNameCHITex[] = dgZoraMaskItemNameCHITex;
 
-#define dgZoraTunicItemNameCHITex "__OTR__textures/item_name_static/gZoraTunicItemNameCHITex"
-static const ALIGN_ASSET(2) char gZoraTunicItemNameCHITex[] = dgZoraTunicItemNameCHITex;
-
 #define dgZorasSapphireItemNameCHITex "__OTR__textures/item_name_static/gZorasSapphireItemNameCHITex"
 static const ALIGN_ASSET(2) char gZorasSapphireItemNameCHITex[] = dgZorasSapphireItemNameCHITex;
+
+#define dgZoraTunicItemNameCHITex "__OTR__textures/item_name_static/gZoraTunicItemNameCHITex"
+static const ALIGN_ASSET(2) char gZoraTunicItemNameCHITex[] = dgZoraTunicItemNameCHITex;
 
 // #endregion
 #endif // TEXTURES_ITEM_NAME_STATIC_H
